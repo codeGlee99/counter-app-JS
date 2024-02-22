@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Counter App</title>
-    <link rel="stylesheet" href="counter.css">
-</head>
-<body>
+    <link rel="stylesheet" href="counter.css" />
+  </head>
+  <body>
     <div class="container" id="container" tabindex="0">
-        <div class="Timer">
-        </div>
-        <div class="displayTimer">
-        </div>
-    </div>
-</body>
+      <div class="Timer center"></div>
+      <div class="displayTimer"></div>
+      <div class="teamInningStatus">
 
-<script src="counter.js"></script>
+        <div class="team1_Status">
+
+          <h1>TEAM -1 Innings Summary</h1>
+
+          <div class="team_Status">
+            <div>Player Name</div>
+            <div>Runs Per Ball</div>
+            <div>Balls Faced</div>
+            <div>Score</div>
+          </div>
+
+          <div class="teamDetail1 tmDetail">
+          </div>
+
+          <div class="teamSmry1 tmSummry">
+          </div>
+
+        </div>
+
+        <div class="team2_Status">
+
+          <h1>TEAM -2 Innings Summary</h1>
+
+          <div class="team_Status">
+            <div>Player Name</div>
+            <div>Runs Per Ball</div>
+            <div>Balls Faced</div>
+            <div>Score</div>
+          </div>
+
+          <div class="teamDetail2 tmDetail">
+          </div>
+
+          <div  class="teamSmry2 tmSummry">
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="team_Winner">
+      </div>
+    </div>
+  </body>
+
+  <script src="counter.js"></script>
 </html>

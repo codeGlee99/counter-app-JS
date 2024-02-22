@@ -1,0 +1,21 @@
+Teams=[
+    {  
+       TeamTotal:45,
+       TeamScore:100,
+       players:[
+        {player:[3,4,5,34], score:12, balls:6},
+        {player:[3,4,5,34], score:12, balls:6},
+        {player:[3,4,5,34], score:12, balls:6},
+        {player:[3,4,5,34], score:12, balls:6}
+       ]   
+    },
+    {   TeamTotal:45,
+        players:[
+            {players:[3,4,5,34], playerCount:12},
+            {players:[3,4,5,34]},
+            {players:[3,4,5,34]},
+            {players:[3,4,5,34]}
+           ]  
+       
+    }
+]
